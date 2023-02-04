@@ -85,6 +85,7 @@ function App() {
               >
                 Edit Task
               </button>
+              {/* This button is used to modify the key completed in the reducer, assigning true as value when cliked. */}
               <button
                 className="button completeButton"
                 onClick={() => {
@@ -98,7 +99,7 @@ function App() {
               >
                 Complete
               </button>
-              {/* This button is used to modify the key completed in the reducer, assigning true as value when cliked. */}
+              {/* This button is used to delete the state in the reducer, when cliked. */}
               <button
                 className="button deleteButton"
                 onClick={() => {
